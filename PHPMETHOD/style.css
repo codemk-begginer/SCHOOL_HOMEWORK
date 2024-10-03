@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#HOMEWORK{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+#HOMEWORK .form{
+    background-color: brown;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    height: 45vh;
+    width: 35%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+}  
+
+form label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+form input[type=text]{
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+}
+
+form input[type=submit]{
+    height: 30px;
+    width: 50%;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+form input[type=submit]:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.submit{
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+}
+
+
+form input{
+    margin-top: 5px;
+}
+
+
+
+form input[type=date]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+ .title{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rosybrown;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.75rem;
+  margin-bottom: 50px;
+
+}
+
+
+.message{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+body{
+    background-color: brown;
+}
